@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    font-family:Arial;
+}
+
+
+.login-box{
+    width:300px;
+    padding:30px;
+    background:rgba(255,255,255,0.2);
+    border-radius:15px;
+    text-align:center;
+}
+
+
+h2{
+    color:white;
+    margin-bottom:20px;
+}
+
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    cursor:pointer;
+}
+
+
+p,a{
+    color:white;
+    margin-top:15px;
+}
